@@ -1,7 +1,7 @@
 # 🖨️ ft_printf
 
 Reimplementação da função **`printf`** em C.  
-Este projeto faz parte do currículo da **42 School** e tem como objetivo entender melhor variádicos, manipulação de strings e conversão de tipos.
+Este projeto faz parte do currículo da **42 School** e tem como objetivo entender melhor sobre funções  variádicas, manipulação de strings e conversão de tipos.
 
 ---
 
