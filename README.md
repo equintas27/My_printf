@@ -59,4 +59,5 @@ int main(void)
 
 # Saída esperada:
 Hello mundo! O número é 42
+
 Autor: Eugênio Quintas
