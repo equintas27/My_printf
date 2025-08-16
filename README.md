@@ -24,15 +24,10 @@ Este projeto faz parte do currículo da **42 School** e tem como objetivo entend
 - Makefile
 - ft_printf.h
 - ft_printf.c
-- ft_putchar.c
-- ft_putstr.c
-- ft_putnbr.c
-- ft_putunbr.c
-- ft_puthex.c
-- ft_putptr.c
- ...
+- ft_printf_utils.c
+- ft_printf_utils1.c
 
-  ## Como Compilar
+# Como Compilar
   Clone o repositório e rode o "make":
 
 "bash"
@@ -47,6 +42,21 @@ Isso irá gerar o arquivo libftprintf.a, que pode ser linkado nos teus programas
 
 Depois disso, faça isso no terminal:
 
-gcc main.c -L. -lftprintf -o my_program
+gcc main.c  libftprintf.a -o my_program
 
+# Exemplo de Uso:
+
+#include "ft_printf.h"
+
+int main(void)
+{
+
+    int num = 42;
+    ft_printf("Hello %s! O número é %d\n", "mundo", num);
+    return 0;
+    
+}
+
+# Saída esperada:
+Hello mundo! O número é 42
 Autor: Eugênio Quintas
