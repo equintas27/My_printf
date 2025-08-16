@@ -32,7 +32,7 @@ Este projeto faz parte do currículo da **42 School** e tem como objetivo entend
 
 "bash"
 
-git clone https://github.com/teu-usuario/ft_printf.git
+git clone https://github.com/equintas27/My_printf.git
 
 cd ft_printf
 
