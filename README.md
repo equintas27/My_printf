@@ -36,10 +36,17 @@ Este projeto faz parte do currículo da **42 School** e tem como objetivo entend
   Clone o repositório e rode o "make":
 
 "bash"
+
 git clone https://github.com/teu-usuario/ft_printf.git
+
 cd ft_printf
+
 make
+
 Isso irá gerar o arquivo libftprintf.a, que pode ser linkado nos teus programas
+
+Depois disso, faça isso no terminal:
+
 gcc main.c -L. -lftprintf -o my_program
 
 Autor: Eugênio Quintas
